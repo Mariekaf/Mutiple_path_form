@@ -1,12 +1,72 @@
-# React + Vite
+ Multiple Paths Form – React & Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une application de formulaire à chemins multiples développée avec **React** et **Tailwind CSS**.
 
-Currently, two official plugins are available:
+Il a été réalisé **dans un but pédagogique**, afin de mieux comprendre et pratiquer les concepts suivants :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔁 **Props Drilling**
+- 🔄 **useEffect**
 
-## Expanding the ESLint configuration
+> 🖼️ **⚠️ Ce projet est conçu spécifiquement pour un affichage mobile en largeur 375px.**  
+> Il n’a pas été optimisé pour les tablettes ou ordinateurs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Objectif du projet
+
+Créer une interface de formulaire dynamique où les choix de l’utilisateur modifient le chemin ou les étapes suivantes du formulaire.
+
+Ce projet n’a pas été conçu pour une mise en production, mais comme **exercice de compréhension de la logique de flux de données descendante (props drilling)** et de l'**utilisation des effets secondaires avec `useEffect()`**.
+
+## 🛠️ Technologies utilisées
+
+- ⚛️ [React](https://reactjs.org/) – composants et gestion d’état
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – design rapide et mobile-first
+- 🧩 React Hooks : `useState`, `useEffect`
+- 🔽 Props Drilling : passage de données entre composants imbriqués
+
+## 📱 Spécification d’affichage
+
+- ✅ **Optimisé uniquement pour les écrans mobiles 375px**
+- ❌ Pas de mise en page responsive pour les écrans larges (tablettes / desktop)
+
+## 📦 Installation
+
+```bash
+# Cloner le projet
+git clone https://github.com/ton-utilisateur/multiple-paths-form.git
+
+# Se rendre dans le dossier
+cd multiple-paths-form
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+🧠 Ce que ce projet m’a appris
+
+    Faire circuler l’information entre plusieurs niveaux via les props
+
+    Structurer la logique de formulaire avec conditions dynamiques
+
+    Utiliser useEffect pour surveiller des changements ou initialiser des comportements
+
+    Styliser proprement une UI mobile avec Tailwind
+
+💡 Idées d’amélioration
+
+    Ajouter une validation des champs
+
+    Utiliser React Context API ou Zustand pour éviter le props drilling
+
+    Ajouter des animations de transition entre les étapes
+
+    Rendre le formulaire responsive pour tous les écrans
+
+👩‍💻 Auteur
+
+    Marie Fk
+
+    GitHub : @Mariekaf
