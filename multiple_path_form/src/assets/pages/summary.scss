@@ -1,0 +1,39 @@
+@use '../components/input.module.scss' as *;
+@use '../components/Nav.scss' as *;
+
+.contenu {
+
+    .header {
+
+        .summary {
+            width: 85%;
+            height: 173px;
+            margin: 20px auto;
+            border-radius: 7px;
+            background-color: hsl(225, 55%, 96%);
+            padding-left: 15px;
+            span{
+                color:hsl(0, 0%, 77%) ;
+                text-decoration: underline;
+                margin-top: -500px;
+                font-weight: 500;
+            }
+            
+            h2{
+                font-size: 14px;
+                color: hsl(213, 96%, 18%);
+                margin-bottom: 7px;
+                font-weight: 500;
+            }
+            h3{
+                font-size: 15px;
+                color: hsl(213, 96%, 18%);
+                margin-left: 60%;
+                font-weight: 800;
+                margin-top: -23px;
+                position: absolute;
+            }
+            
+        }
+    }
+}

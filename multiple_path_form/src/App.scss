@@ -1,0 +1,21 @@
+@use './assets/components/Nav.scss' as *;
+@use './assets/components/setting.scss' as *;
+@use './assets/pages/yourinfo.scss' as *;
+@use './assets/pages/selectplan.scss' as *;
+@use './assets/pages/addons.scss' as *;
+@use './assets/pages/summary.scss' as *;
+
+body {
+  width: 375px;
+ 
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: rgb(244, 244, 255);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page{
+  height: auto;
+
+}
